@@ -239,8 +239,15 @@ header {
 
 }
 
-.gift1 {
-    /* display: flex; */
+.gift {
     justify-content: space-around;
     align-items: center;
+}
+
+.eml {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
