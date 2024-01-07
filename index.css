@@ -21,6 +21,10 @@ header {
     margin: 50px 50px 140px 140px;
 }
 
+.bg {
+    background-color: #121212b3;
+}
+
 .con-text h4 {
     color: #FFF;
     text-align: center;
@@ -86,4 +90,115 @@ header {
 
 .container2 h1 {
     padding-bottom: 48px;
+}
+
+.party {
+    background-image: url('styles/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212b3;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    gap: 50px;
+}
+
+#party1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 50;
+}
+
+#party2 {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.btn-join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #121212b3;
+    margin-top: 20px;
+}
+
+.Place {
+    width: 1320px;
+    height: 482px;
+    /* flex-shrink: 0; */
+}
+
+.place1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cr {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+
+.btn-or {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
