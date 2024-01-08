@@ -385,29 +385,22 @@ header {
     text-transform: capitalize;
 }
 
-.eml-btn {
-    /* width: 648px;
-    height: 72px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #FFF; */
-}
-
-.btn-e {
-    /* color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize; */
-}
-
 footer {
-    width: 1600px;
-    height: 609px;
-    flex-shrink: 0;
-    background: #070211;
-    background-size: cover;
+    background: #bab6c2;
+    padding: 130px 200px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.las-m {
+    display: flex;
+    
+}
+
+.social {
+    align-items: center;
+}
+
+.lasR>p {
+    text-align: right;
 }
