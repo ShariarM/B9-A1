@@ -206,6 +206,55 @@ header {
     align-items: center;
 }
 
+.of-tex {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.of-tex2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.of-tex3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+}
+
+.of-ri {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.of-ri2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+}
+
 .gift {
     width: 1600px;
     /* height: 7335px; */
@@ -251,11 +300,18 @@ header {
 .img-dv {
     margin-top: 48px;
     flex-direction: column, row;
+    gap: 20px;
 
 }
 
 .img1 {
     display: flex;
+    gap: 20px;
+}
+
+.img2 {
+    display: flex;
+    gap: 20px;
 }
 
 .eml {
@@ -292,23 +348,66 @@ header {
     line-height: 32px;
 }
 
-.eml-btn {
+.form {
     width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 30px auto;
+    display: flex;
+}
+
+.form input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    flex-grow: 1;
+    border: none;
+}
+
+.form button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+}
+
+#subs {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.eml-btn {
+    /* width: 648px;
     height: 72px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #FFF;
+    background: #FFF; */
 }
 
-.eml-btn>button {
-    color: #FFF;
+.btn-e {
+    /* color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
+    text-transform: capitalize; */
+}
+
+footer {
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    background-size: cover;
 }
