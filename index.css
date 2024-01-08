@@ -385,22 +385,49 @@ header {
     text-transform: capitalize;
 }
 
-footer {
-    background: #bab6c2;
-    padding: 130px 200px;
-    margin-top: 100px;
+.ft {
     display: flex;
-}
-
-.las-m {
-    display: flex;
-    
-}
-
-.social {
+    justify-content: space-around;
     align-items: center;
+    color: #fff;
+    margin-top: 100px;
 }
 
-.lasR>p {
-    text-align: right;
+.ftr {
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.ftr1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.im {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ftr2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.h {
+    width: 1200px;
 }
